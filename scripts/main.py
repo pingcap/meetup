@@ -47,11 +47,11 @@ def fetch_page(url):
             tp = img.attrs.get('data-type', 'jpg')
 
             img_path = "../media/meetup-{}.{}".format(hashlib.md5(img_url.encode()).hexdigest(), tp)
-            print(img_path)
+
             # change img
             img.name = "p"      # yes img
             img.attrs = {}
-            img.string = '![]({})'.format(img_path)
+            img.string = '![]({})'.format(img_path.replace('../', './'))
 
             if os.path.exists(img_path):
                 continue
@@ -72,7 +72,7 @@ def fetch_page(url):
 
     print(title, date, author, url, sep='\t')
 
-    fpath = "../html/meetup-{}-{}.html".format(date, title)
+    fpath = "../html/meetup-{}-{}.html".format(date, title.replace('/', '-'))
 
     with open(fpath, 'w') as fp:
         fp.write(soup.prettify())
@@ -197,6 +197,7 @@ https://mp.weixin.qq.com/s/tIo8wXl0QgW9QV9IGVHbkg
 
 urls = """
 https://mp.weixin.qq.com/s/i1s0O-yI_UB3rLDhyAyOAQ
+https://mp.weixin.qq.com/s?__biz=MzI3NDIxNTQyOQ==&mid=2247485305&idx=1&sn=3e351cbbaf6e6e1e9e75526cdd9f18ca&chksm=eb162013dc61a9053bdc3af6b17203fa1f5c497fd381e226916902395039b89e0b21932d85e2#rd
 """
 
 if __name__ == "__main__":
