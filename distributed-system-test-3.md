@@ -5,7 +5,7 @@ date: 2016-12-07
 summary: 本话题系列文章整理自 PingCAP Infra Meetup 第 26 期刘奇分享的《深度探索分布式系统测试》议题现场实录。文章较长，为方便大家阅读，会分为上中下三篇，本文为下篇。
 tags: ['TiDB', '分布式系统测试', '测试工具']
 meetup_type: memoir
-url: /meetup-recording/distributed-system-test-3
+url: /meetup/recording/distributed-system-test-3
 ---
 
 > 本话题系列文章整理自 PingCAP Infra Meetup 第 26 期刘奇分享的《深度探索分布式系统测试》议题现场实录。文章较长，为方便大家阅读，会分为上中下三篇，本文为下篇。
