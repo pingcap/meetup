@@ -4,6 +4,7 @@ date: 2017-05-31
 author: ['唐刘']
 type: meetup
 meetup_type: memoir
+url: /meetup-recording/rust-in-tikv
 ---
 
 >本文整理自 4 月 16 日 Rust 专场 Meetup 上，我司首席架构师唐刘同学的现场分享，共享给大家。enjoy~
