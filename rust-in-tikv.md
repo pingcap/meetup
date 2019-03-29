@@ -2,12 +2,14 @@
 title: 【Infra Meetup No.45】Rust in TiKV
 date: 2017-05-31
 author: ['唐刘']
+summary: 本文整理自 2017 年 4 月 16 日 Rust 专场 Meetup 上，我司首席架构师唐刘同学的现场分享，共享给大家。enjoy~
 type: meetup
 meetup_type: memoir
+image:/images/meetup/media/rust-in-tikv.jpg
 url: /meetup/recording/rust-in-tikv
 ---
 
->本文整理自 4 月 16 日 Rust 专场 Meetup 上，我司首席架构师唐刘同学的现场分享，共享给大家。enjoy~
+>本文整理自 2017 年 4 月 16 日 Rust 专场 Meetup 上，我司首席架构师唐刘同学的现场分享，共享给大家。enjoy~
 
 Hello everyone, today I will talk about how we use Rust in TiKV.
 
@@ -169,7 +171,7 @@ Ok, that’s what we have done and are doing. Here are what we will do in the fu
 
 - Be a strong advocate of Rust in China.
 
-![](http://upload-images.jianshu.io/upload_images/542677-7230992f2d7534ef?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](./media/rust-in-tikv.jpg)
 
 
 
