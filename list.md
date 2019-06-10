@@ -1,4 +1,0 @@
----
-type: meetup
-layout: archive
----
