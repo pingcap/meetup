@@ -5,7 +5,7 @@ author: ['唐刘']
 summary: 本文整理自 2017 年 4 月 16 日 Rust 专场 Meetup 上，我司首席架构师唐刘同学的现场分享，共享给大家。enjoy~
 type: meetup
 meetup_type: memoir
-image: /images/meetup/media/rust-in-tikv.jpg
+image: /images/meetup/rust-in-tikv.jpg
 url: /meetup/recording/rust-in-tikv
 ---
 
