@@ -6,7 +6,7 @@ summary: 本文整理自 2017 年 4 月 16 日 Rust 专场 Meetup 上，我司�
 type: meetup
 meetup_type: memoir
 image: /images/meetup/rust-in-tikv.jpg
-url: /meetup/recording/rust-in-tikv
+url:  /images/meetup/meetup-45-20170416/8.jpg
 ---
 
 >本文整理自 2017 年 4 月 16 日 Rust 专场 Meetup 上，我司首席架构师唐刘同学的现场分享，共享给大家。enjoy~
